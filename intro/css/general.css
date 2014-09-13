@@ -1,0 +1,117 @@
+/*General */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,800,400&subset=latin,cyrillic);
+
+body, html {
+	height: 100%;
+	width: 100%;
+	overflow-x:hidden;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.72222;
+  color: #34495e;
+  background-color: #ffffff;
+}
+a {
+  color: #34495e;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+a:hover,
+a:focus {
+  color: #34495e;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+
+
+/* Arrow down */
+.abcen {
+	position: relative;
+	top: 35%;
+}
+.img_scroll {
+	width: 54px;
+}
+
+/* Into h */ 
+.h1_home{
+	margin-top: 80px;
+	font-size: 80px;
+	font-weight: 300;
+	letter-spacing: 6px;
+}
+.h3_home{font-weight: 300;}
+h1, h2, h3 {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+.intro-header {
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(../img/intro/intro.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+
+/* Buttons */ 
+.intro-social-buttons {
+	margin-top: 25px;
+}
+.intro-social-buttons li a {
+	line-height: 24px;
+}
+.mybutton_standard {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.mybutton_standard:hover {
+	color: #fff;
+	border: 1px solid #49c160;
+}
+.mybutton_cyano{
+	border: 1px solid #4A90BE;
+	color: #fff;
+	background-color:#4A90BE;
+}
+.mybutton_cyano:hover{
+	border: 1px solid #4A90BE;
+	color: #4A90BE !important;
+	background: rgba(204, 204, 204, 0);
+}
+
+
+/* Footer nav */
+.navbar-brand {
+	letter-spacing: 3px;
+	font-weight: 400 !important;
+}
+.navbar-default {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-brand {
+  font-size: 24px;
+  color: #34495e;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #1abc9c;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #34495e;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #1abc9c;
+  background-color: transparent;
+}
